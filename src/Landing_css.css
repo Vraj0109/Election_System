@@ -1,0 +1,38 @@
+.navbar-expand-lg {
+  background-color:orange;
+}
+/* Modify brand and text color */
+.thead{
+  background-color:darkcyan;
+  color: whitesmoke;
+}
+.tr:hover{
+  background-color:khaki;
+}
+.navbar-expand-lg .navbar-brand,
+.navbar-expand-lg .navbar-text {
+  color: green;
+}
+/* .d-flex{
+  /* width: 50px; */
+  /* height: 40px ; */
+/* } */ 
+.divider:after,
+.divider:before {
+  content: "";
+  flex: 1;
+  height: 1px;
+  background: #eee;
+}
+ .btn btn-primary btn-lg {
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
+} 
+.h-custom {
+  height: calc(100% - 73px);
+}
+@media (max-width: 450px) {
+  .h-custom {
+    height: 100%;
+  }
+}
